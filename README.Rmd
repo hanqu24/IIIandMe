@@ -1,0 +1,56 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# IIIandme
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+Our recent algorithm, Hapi, infers chromosome-scale haplotypes using genomic data of a small number of single gametes. An advanced version, IIIandMe, is proposed here to achieve the same phasing accuracy only with as few as three gametes, pushing the boundary to its possible limit. We demonstrated this new method by simulation and analyzing a citrus dataset. The rapid advancement of genotyping technology promotes a wide application of IIIandMe in various genetic applications.
+
+## Installation
+
+You can install the development version of IIIandme from Github:
+
+``` r
+### Install dependencies ahead
+install.packages('tidyr')
+install.packages('gtools')
+
+devtools::install_github('Jialab-UCR/IIIandme')
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(IIIandme)
+## basic example code
+
+load(file = 'data/sample.rda')
+input<- PreProcessing(sample)
+head(input)
+
+res<- HapCo(input, 5)
+hap<- res[[1]]
+co<- res[[2]]
+
+head(hap)
+head(co)
+
+vote<- VoteCount(hap, 5, colnames(input))
+head(vote)
+```

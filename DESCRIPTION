@@ -1,0 +1,20 @@
+Package: IIIandme
+Title: An Algorithm for Chromosome-scale Haplotype Determination Using Genome-wide Variants of Three Haploid Reproductive Cells
+Version: 0.0.1
+Authors@R: c(
+  person("Han", "Qu", email = "hqu002@ucr.edu", role = c("aut", "cre")),
+  person("Ruidong", "Li", email = "rli012@ucr.edu", role = c("aut")))
+Description: Our recent algorithm, Hapi, infers chromosome-scale haplotypes using genomic data of several single gametes. An advanced version, IIIandMe, is proposed to achieve the same phasing accuracy only with three gametes if data quality is high, pushing the boundary to its possible limit. We demonstrated this new method by simulation and analyzing a citrus dataset. The rapid advancement of genotyping technology promotes a wide application of IIIandMe in various genetic applications.
+License: Apache License (>= 2)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Imports: 
+    gtools,
+    tidyr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
