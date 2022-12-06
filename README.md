@@ -15,4 +15,4 @@ devtools::install_github('Jialab-UCR/Hapi')
 
 ## Package Manual
 
-The manual of **IIIandMe**: IIIandMe manual
+The manual of **IIIandMe**: [IIIandMe manual](https://htmlpreview.github.io/?https://github.com/Jialab-UCR/Jialab-UCR.github.io/blob/master/IIIandMe.html)
