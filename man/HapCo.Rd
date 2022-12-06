@@ -4,12 +4,14 @@
 \alias{HapCo}
 \title{Generating all possible haplotypes & positions of crossovers}
 \usage{
-HapCo(data, npol)
+HapCo(data, npol, filterGenoError = F)
 }
 \arguments{
 \item{data}{preprocessing data}
 
 \item{npol}{pollen numbers}
+
+\item{filterGenoError}{filtering genotyping errors}
 }
 \value{
 lists of possible haplotypes & crossovers

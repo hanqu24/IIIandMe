@@ -4,14 +4,14 @@
 \alias{VoteCount}
 \title{Votting the final haplotype}
 \usage{
-VoteCount(hap, npol, name)
+VoteCount(sample, input, hap_co, npol)
 }
 \arguments{
-\item{hap}{all possible haplotypes}
+\item{input}{Pollen data after pre-processing}
+
+\item{hap_co}{haplotype & co lists}
 
 \item{npol}{pollen numbers}
-
-\item{name}{names of pollens}
 }
 \value{
 haplotype lists
@@ -25,5 +25,5 @@ input<- PreProcessing(sample)
 res<- HapCo(input, 5)
 hap<- res[[1]]
 co<- res[[2]]
-VoteCount(hap, 5, colnames(input))
+VoteCount(sample, input, res, 5)
 }

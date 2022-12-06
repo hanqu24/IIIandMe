@@ -8,13 +8,20 @@ Description: Our recent algorithm, Hapi, infers chromosome-scale haplotypes usin
 License: Apache License (>= 2)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.1
+RoxygenNote: 7.2.2
+VignetteBuilder: knitr
 Depends: 
     R (>= 2.10)
 LazyData: true
 Imports: 
+    chromoMap,
     gtools,
+    Hapi,
     tidyr
 Suggests: 
+    BiocStyle,
+    knitr,
+    prettydoc,
+    rmarkdown,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3

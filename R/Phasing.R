@@ -2,6 +2,7 @@
 #'
 #' @param data preprocessing data
 #' @param npol pollen numbers
+#' @param filterGenoError filtering genotyping errors
 #'
 #' @return lists of possible haplotypes & crossovers
 #' @export
@@ -11,27 +12,24 @@
 #' input<- PreProcessing(sample)
 #' HapCo(input, 5)
 
-HapCo <- function(data, npol) {
+HapCo <- function(data, npol, filterGenoError = F) {
   library(gtools)
   choice <- gtools::combinations(npol, 3, 5:(npol + 4))
-  res <- hap3fromLot(data, choice)
+  res <- hap3fromLot(data, choice, filter = filterGenoError)
   return(res)
 }
 
-hap3fromLot <- function(cpn, choice, filterNA = TRUE, filterGenoError = FALSE) {
+hap3fromLot <- function(cpn, choice, filter) {
+  library(Hapi)
   hap <- list()
   co <- list()
   for (a in 1:nrow(choice)) {
     print(nrow(cpn))
     ### Filter NAs
-    if (filterNA == TRUE) {
-      pn <- basicFilterFun(cpn[, choice[a, ]], 3)
-      print(nrow(pn))
-    } else {
-      pn <- cpn
-    }
+    pn <- basicFilterFun(cpn[, choice[a, ]], 3)
+    print(nrow(pn))
 
-    if (filterGenoError == TRUE) {
+    if (filter == TRUE) {
       pn <- hapiFilterError(pn)
     }
 
