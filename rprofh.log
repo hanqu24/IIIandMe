@@ -1,0 +1,32 @@
+memory profiling: sample.interval=20000
+:1799284:1656506:81154192:2:
+:1800404:1656506:81165840:0:
+:1801508:1656506:81177432:0:
+:1802820:1656506:81191264:0:
+:1806292:1656506:81558904:287:
+:1807972:1656506:81576656:0:
+:1815422:1656506:82539128:782:"structure" "simpleError" "tryCatchOne" "tryCatchList" "tryCatch" "base::try" "withCallingHandlers" "base::suppressWarnings" 
+:1826522:1656506:83979560:1186:
+:1828359:1656506:84082992:71:"conditionMessage" "strsplit" "value[[3]]" "tryCatchOne" "tryCatchList" "tryCatch" "base::try" "withCallingHandlers" "base::suppressWarnings" 
+:1832327:1656506:84499968:339:
+:1836708:1656506:85005648:410:
+:1838066:1656642:85025080:4:
+:1841559:1656925:85461432:159:"as.list.default" "as.list" "lapply" "FUN" "lapply" "findLocalsList1" "findLocalsList" "funEnv" "make.functionContext" "cmpfun" "doTryCatch" "tryCatchOne" "tryCatchList" "tryCatch" "compiler:::tryCmpfun" ".rs.recordTraceback" "<Anonymous>" 
+:1852869:1661476:87849832:888:"append" "FUN" "lapply" "FUN" "lapply" "findLocalsList1" "findLocalsList" "funEnv" "make.functionContext" "h" "tryInline" "cmpCall" "cmp" "genCode" "cb$putconst" "cmpCallArgs" "cmpCallSymFun" "cmpCall" "cmp" "cmpSymbolAssign" "h" "tryInline" "cmpCall" "cmp" "h" "tryInline" "cmpCall" "cmp" "genCode" "cmpfun" "doTryCatch" "tryCatchOne" "tryCatchList" "tryCatch" "compiler:::tryCmpfun" ".rs.recordTraceback" "<Anonymous>" 
+:1867779:1665050:90527304:1002:"cb$putconst" "cmpSym" "cmp" "cmpIs" "h" "tryInline" "cmpCall" "cmp" "cmpPrim1" "h" "tryInline" "cmpCall" "cmp" "h" "tryInline" "cmpCall" "cmp" "h" "tryInline" "cmpCall" "cmp" "genCode" "h" "tryInline" "cmpCall" "cmp" "genCode" "cb$putconst" "cmpCallArgs" "cmpCallSymFun" "cmpCall" "cmp" "cmpSymbolAssign" "h" "tryInline" "cmpCall" "cmp" "h" "tryInline" "cmpCall" "cmp" "genCode" "cmpfun" "doTryCatch" "tryCatchOne" "tryCatchList" "tryCatch" "compiler:::tryCmpfun" ".rs.recordTraceback" "<Anonymous>" 
+:1878846:1671689:93093000:1032:"findCenvVar" "getInlineInfo" "isBaseVar" "getFoldFun" "constantFoldCall" "constantFold" "cmp" "h" "tryInline" "cmpCall" "cmp" "genCode" "h" "tryInline" "cmpCall" "cmp" "genCode" "cb$putconst" "cmpCallArgs" "cmpCallSymFun" "cmpCall" "cmp" "cmpSymbolAssign" "h" "tryInline" "cmpCall" "cmp" "h" "tryInline" "cmpCall" "cmp" "genCode" "cmpfun" "doTryCatch" "tryCatchOne" "tryCatchList" "tryCatch" "compiler:::tryCmpfun" ".rs.recordTraceback" "<Anonymous>" 
+:1891892:1677357:95872840:1078:"paste0" "cb$makelabel" "cmpForBody" "h" "tryInline" "cmpCall" "cmp" "h" "tryInline" "cmpCall" "cmp" "h" "tryInline" "cmpCall" "cmp" "h" "tryInline" "cmpCall" "cmp" "genCode" "h" "tryInline" "cmpCall" "cmp" "genCode" "cb$putconst" "cmpCallArgs" "cmpCallSymFun" "cmpCall" "cmp" "h" "tryInline" "cmpCall" "cmp" "genCode" "cmpfun" "doTryCatch" "tryCatchOne" "tryCatchList" "tryCatch" "compiler:::tryCmpfun" ".rs.recordTraceback" "<Anonymous>" 
+:1899600:1682739:97617016:669:
+:1901673:1682739:97838664:41:
+:1905273:1682739:98207480:287:
+:1906534:1683011:98242424:10:".rs.isFunction" ".rs.valueAsStringImpl" "doTryCatch" "tryCatchOne" "tryCatchList" "tryCatch" ".rs.valueAsString" ".rs.describeObject" 
+:1908588:1683011:98326088:27:
+:1909677:1683147:98367024:18:
+:1911117:1683147:98381920:0:
+:1914727:1683147:98715904:255:"mode" "%in%" "deparse" "mode" "%in%" "deparse" "value[[3]]" "tryCatchOne" "tryCatchList" "tryCatch" "base::try" "withCallingHandlers" "base::suppressWarnings" 
+:1917229:1683147:98777336:32:
+:1920621:1683147:99144080:287:
+:1921625:1683283:99158304:2:
+:1923033:1683283:99173200:0:
+:1924581:1683283:99236928:41:
+:1928393:1683283:99560608:246:
