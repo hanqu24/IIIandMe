@@ -1,4 +1,4 @@
-## ----install, eval=FALSE, include=FALSE---------------------------------------
+## ----install, eval=FALSE, echo=T----------------------------------------------
 #  ### Install dependencies ahead
 #  install.packages('devtools')
 #  
@@ -37,7 +37,7 @@ co<- vote[[2]]
 head(hap)
 co
 
-## ----plot, echo=TRUE----------------------------------------------------------
+## ----plot, echo=TRUE, results='hide'------------------------------------------
 PlotCo(sample, chr='chr9', co=vote[[2]])
 
 ## ----sessionInfo, echo=FALSE--------------------------------------------------

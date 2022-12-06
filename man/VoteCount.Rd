@@ -20,7 +20,7 @@ haplotype lists
 Votting the final haplotype
 }
 \examples{
-library(IIIandme)
+library(IIIandMe)
 input<- PreProcessing(sample)
 res<- HapCo(input, 5)
 hap<- res[[1]]

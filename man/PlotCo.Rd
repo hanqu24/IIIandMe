@@ -37,9 +37,9 @@ crossover plot
 Plotting crossover positions
 }
 \examples{
-library(IIIandme)
+library(IIIandMe)
 input<- PreProcessing(sample)
 res<- HapCo(input, 5)
 vote<- VoteCount(sample, input, res, 5)
-PlotCo(sample, chr='chr9', co=vote[[2]])
+PlotCo(sample, chr='chr9', co=vote[[2]], export.options= T)
 }

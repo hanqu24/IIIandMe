@@ -16,7 +16,7 @@
 #' input<- PreProcessing(sample)
 #' res<- HapCo(input, 5)
 #' vote<- VoteCount(sample, input, res, 5)
-#' PlotCo(sample, chr='chr9', co=vote[[2]])
+#' PlotCo(sample, chr='chr9', co=vote[[2]], export.options= T)
 
 PlotCo<- function(sample, chr='chr9', co, scale='pos', export.options=F, labels=T,
                   label_font = 12,
@@ -65,6 +65,9 @@ PlotCo<- function(sample, chr='chr9', co, scale='pos', export.options=F, labels=
   chromoMap(list(c),list(anno),segment_annotation = T, export.options=export.options,
             labels= labels,
             label_font = label_font,
-            label_angle = label_angle)
+            label_angle = label_angle,
+            canvas_width = 800,
+            chr_length = 6,
+            chr_width = 25,)
 
 }

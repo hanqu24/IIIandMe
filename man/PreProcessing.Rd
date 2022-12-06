@@ -16,6 +16,6 @@ output of preprocessing data
 Preprocessing & Basic functions
 }
 \examples{
-library(IIIandme)
+library(IIIandMe)
 PreProcessing(sample)
 }
