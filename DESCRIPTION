@@ -1,4 +1,4 @@
-Package: IIIandme
+Package: IIIandMe
 Title: An Algorithm for Chromosome-scale Haplotype Determination Using Genome-wide Variants of Three Haploid Reproductive Cells
 Version: 0.0.1
 Authors@R: c(

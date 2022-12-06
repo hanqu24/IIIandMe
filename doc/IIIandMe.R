@@ -2,12 +2,12 @@
 #  ### Install dependencies ahead
 #  install.packages('devtools')
 #  
-#  devtools::install_github('Jialab-UCR/IIIandme')
+#  devtools::install_github('Jialab-UCR/IIIandMe')
 
 ## ----raw, echo=TRUE-----------------------------------------------------------
 ### Load sample data
 
-library(IIIandme)
+library(IIIandMe)
 data(sample)
 head(sample)
 

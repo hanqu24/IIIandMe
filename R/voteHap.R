@@ -8,7 +8,7 @@
 #' @export
 #'
 #' @examples
-#' library(IIIandme)
+#' library(IIIandMe)
 #' input<- PreProcessing(sample)
 #' res<- HapCo(input, 5)
 #' hap<- res[[1]]

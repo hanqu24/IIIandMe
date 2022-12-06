@@ -6,7 +6,7 @@
 #' @export
 #'
 #' @examples
-#' library(IIIandme)
+#' library(IIIandMe)
 #' PreProcessing(sample)
 
 PreProcessing <- function(data) {

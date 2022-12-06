@@ -1,10 +1,10 @@
 ---
-title: "IIIandme: An Algorithm for Chromosome-scale Haplotype Determination Using
+title: "IIIandMe: An Algorithm for Chromosome-scale Haplotype Determination Using
   Genome-wide Variants of Three Haploid Reproductive Cells"
 author:
 - name: Han Qu, Ruidong Li, Zhenyu Jia
   affiliation: Department of Botany and Plant Sciences, University of California in Riverside, CA, USA
-package: IIIandme
+package: IIIandMe
 date: 'Last update: `r Sys.Date()`'
 output:
   prettydoc::html_pretty:
@@ -31,7 +31,7 @@ The development version of *IIIandMe* can be easily installed from Github:
 ### Install dependencies ahead
 install.packages('devtools')
 
-devtools::install_github('Jialab-UCR/IIIandme')
+devtools::install_github('Jialab-UCR/IIIandMe')
 ```
 
 # Haplotype Phasing
@@ -49,7 +49,7 @@ We show an example using the dataset of a citrus accession, Clementine de Nules.
 ```{r raw, echo=TRUE}
 ### Load sample data
 
-library(IIIandme)
+library(IIIandMe)
 data(sample)
 head(sample)
 

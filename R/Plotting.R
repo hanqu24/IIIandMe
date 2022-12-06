@@ -12,7 +12,7 @@
 #' @export
 #'
 #' @examples
-#' library(IIIandme)
+#' library(IIIandMe)
 #' input<- PreProcessing(sample)
 #' res<- HapCo(input, 5)
 #' vote<- VoteCount(sample, input, res, 5)
