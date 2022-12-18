@@ -10,7 +10,7 @@ Our recent algorithm, [Hapi](http://htmlpreview.github.io/?https://github.com/Ji
 ### Install dependencies ahead
 install.packages('devtools')
 
-devtools::install_github('Jialab-UCR/Hapi')
+devtools::install_github('Jialab-UCR/IIIandMe')
 ```
 
 ## Package Manual
